@@ -8,9 +8,8 @@
 ?>
 	<div class="container" id="wrapper">
 		<div id="header">
-			<div class="mainLogo">
-           			 <div class="logo">Online Crime  <span>Report</span></div>
-       	    </div>
+			<?php 
+	include 'php/includes/title.php'; 	?>
 			<div id="login">
 				<?php if(isset($_SESSION['email'])){?>
 					You are logged in as:  <b><?php echo $_SESSION['email']; ?></b>
