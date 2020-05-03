@@ -150,8 +150,8 @@
             <div>
                 <img u="image" src="images/slider1.jpg" />
                 <div u="thumb">
-                    <img class="i" src="images/slider1-thumb001.jpg" /><div class="t">Police Training</div>
-                    <div class="c">Anti-riot police during training</div>
+                    <img class="i" src="images/slider1-thumb001.jpg" /><div class="t">Police Personnel</div>
+                    <div class="c">Our men of action</div>
                 </div>
             </div>
             <div>
@@ -176,9 +176,9 @@
                 </div>
             </div>
 			<div>
-                <img u="image" src="images/chopper.jpg" />
+                <img u="image" src="images/slider5.jpg" />
                 <div u="thumb">
-                    <img class="i" src="images/slider3-thumb003.jpg" /><div class="t">Police Chopper</div>
+                    <img class="i" src="images/slider5-thumb005.jpg" /><div class="t">Police Chopper</div>
                     <div class="c">The flying squad chopper</div>
                 </div>
             </div>
