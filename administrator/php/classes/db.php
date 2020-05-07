@@ -281,7 +281,7 @@
 			if(count($rows) > 0){
 					echo '<tr style="border-bottom:1px solid #000;"><td style="padding:10px 8px;"><b>Full Names:</b></td><td>'.$name.'</td></tr>';
 					echo '<tr style="border-bottom:1px solid #000;"><td style="padding:10px 8px;"><b>Address:</b></td><td>'.$rows[0]['Address'].'</td></tr>';
-					echo '<tr style="border-bottom:1px solid #000;"><td style="padding:10px 8px;"><b>Image:</b></td><td><img src="../Uploads/missing_vehicles/'.$rows[0]['image'].'"/></td></tr>';
+					echo '<tr style="border-bottom:1px solid #000;"><td style="padding:10px 8px;"><b>Image:</b></td><td><img src="../Uploads/missing_persons/'.$rows[0]['image'].'"/></td></tr>';
 					echo '<tr style="border-bottom:1px solid #000;"><td style="padding:10px 8px;"><b>Description:</b></td><td>'.$rows[0]['description'].'</td></tr>';
 					echo '<tr style="border-bottom:1px solid #000;"><td style="padding:10px 8px;"><b>Phone Number:</b></td><td>0'.$rows[0]['phoneNumber'].'</td></tr>';
 					
@@ -303,7 +303,7 @@
 			if(count($rows) > 0){
 					echo '<tr style="border-bottom:1px solid #000;"><td style="padding:10px 8px;"><b>Full Names:</b></td><td>'.$name.'</td></tr>';
 					echo '<tr style="border-bottom:1px solid #000;"><td style="padding:10px 8px;"><b>Address:</b></td><td>'.$rows[0]['Address'].'</td></tr>';
-					echo '<tr style="border-bottom:1px solid #000;"><td style="padding:10px 8px;"><b>Image:</b></td><td><img src="../Uploads/missing_vehicles/'.$rows[0]['image'].'"/></td></tr>';
+					echo '<tr style="border-bottom:1px solid #000;"><td style="padding:10px 8px;"><b>Image:</b></td><td><img src="../Uploads/missing_persons/'.$rows[0]['image'].'"/></td></tr>';
 					echo '<tr style="border-bottom:1px solid #000;"><td style="padding:10px 8px;"><b>Description:</b></td><td>'.$rows[0]['description'].'</td></tr>';
 					echo '<tr style="border-bottom:1px solid #000;"><td style="padding:10px 8px;"><b>Phone Number:</b></td><td>0'.$rows[0]['phoneNumber'].'</td></tr>';
 			}
