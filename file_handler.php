@@ -48,8 +48,8 @@
                $name = "$file_name";
                $name = ereg_replace("[^A-Za-z0-9.]", "", $name);
                $name = strtolower($name);
-               $name = "C:\\xampp\\htdocs\\policeStation\\Uploads\\missing_persons\\$name";
-               $new = "C:\\xampp\\htdocs\\policeStation\\Uploads\\missing_persons\\_".$file_name;
+               $name = "Uploads/missing_persons/$name";
+               $new = "Uploads/missing_persons/_".$file_name;
 			   
               move_uploaded_file($file_tmp_name, $name);
              
@@ -135,8 +135,8 @@
                $name = "$file_name";
                $name = ereg_replace("[^A-Za-z0-9.]", "", $name);
                $name = strtolower($name);
-               $name = "C:\\xampp\\htdocs\\policeStation\\Uploads\\missing_persons\\$name";
-               $new = "C:\\xampp\\htdocs\\policeStation\\Uploads\\missing_persons\\_".$file_name;
+               $name = "Uploads/missing_persons/$name";
+               $new = "Uploads/missing_persons/_".$file_name;
 			   
               move_uploaded_file($file_tmp_name, $name);
              
@@ -212,8 +212,8 @@
                $name = "$file_name";
                $name = ereg_replace("[^A-Za-z0-9.]", "", $name);
                $name = strtolower($name);
-               $name = "C:\\xampp\\htdocs\\policeStation\\Uploads\\missing_vehicles\\$name";
-               $new = "C:\\xampp\\htdocs\\policeStation\\Uploads\\missing_vehicles\\_".$file_name;
+               $name = "Uploads/missing_vehicles/$name";
+               $new = "Uploads/missing_vehicles/_".$file_name;
 			   
               move_uploaded_file($file_tmp_name, $name);
              
@@ -300,8 +300,8 @@ if(isset($_POST['f_vehicle_submit']) && !empty($_POST) && !empty($_FILES)){
                $name = "$file_name";
                $name = ereg_replace("[^A-Za-z0-9.]", "", $name);
                $name = strtolower($name);
-               $name = "C:\\xampp\\htdocs\\policeStation\\Uploads\\missing_vehicles\\$name";
-               $new = "C:\\xampp\\htdocs\\policeStation\\Uploads\\missing_vehicles\\_".$file_name;
+               $name = "Uploads/missing_vehicles/$name";
+               $new = "Uploads/missing_vehicles/_".$file_name;
 			   
               move_uploaded_file($file_tmp_name, $name);
              
